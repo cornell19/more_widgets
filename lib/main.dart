@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:more_widgets/clip_page.dart';
 import 'package:more_widgets/gridview_page.dart';
+import 'package:more_widgets/notify_page.dart';
 import 'package:more_widgets/stack_page.dart';
 import 'package:more_widgets/table_page.dart';
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ClipPage(),
+      home: NotifyPage(),
     );
   }
 }
